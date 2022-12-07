@@ -6,8 +6,8 @@ import Home from "../Pages/Home";
 function RoutesList(){
     return (
         <Routes>
-            <Route index element={<Home/>} title="wcr.design"/>
-            <Route path="/briefing" element={<Briefing/>} title="Briefing | wcr.design"/>
+            <Route index element={<Home/>} />
+            <Route path="/briefing" element={<Briefing/>} />
         </Routes>
     )
 }
